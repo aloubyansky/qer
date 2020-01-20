@@ -1,11 +1,13 @@
 package io.quarkus.extension.repository;
 
+import java.util.List;
+
 import io.quarkus.extension.repository.model.QuarkusExtensionCategory;
-import io.quarkus.extension.repository.model.QuarkusPlatform;
+import io.quarkus.extension.repository.model.QuarkusPlatformStream;
 
 public interface ListExtensionSummariesRequest {
 
-	QuarkusExtensionCategory getCategory();
+	List<QuarkusExtensionCategory> getCategories();
 
-	QuarkusPlatform getPlatform();
+	QuarkusPlatformStream getPlatformStream();
 }

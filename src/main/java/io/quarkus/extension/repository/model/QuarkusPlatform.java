@@ -1,8 +1,8 @@
 package io.quarkus.extension.repository.model;
 
 /**
- * Quarkus platform
+ * Quarkus platform release.
  */
-public class QuarkusPlatform {
+public interface QuarkusPlatform {
 
 }

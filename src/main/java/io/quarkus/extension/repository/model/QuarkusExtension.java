@@ -1,8 +1,8 @@
 package io.quarkus.extension.repository.model;
 
 /**
- * Specific version of a Quarkus extension 
+ * Specific version of a Quarkus extension
  */
-public class QuarkusExtension {
+public interface QuarkusExtension {
 
 }

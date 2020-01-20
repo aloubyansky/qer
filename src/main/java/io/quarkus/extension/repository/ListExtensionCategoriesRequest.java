@@ -1,8 +1,8 @@
 package io.quarkus.extension.repository;
 
-import io.quarkus.extension.repository.model.QuarkusPlatform;
+import io.quarkus.extension.repository.model.QuarkusPlatformStream;
 
 public interface ListExtensionCategoriesRequest {
 
-	QuarkusPlatform getQuarkusPlatform();
+	QuarkusPlatformStream getQuarkusPlatformStream();
 }

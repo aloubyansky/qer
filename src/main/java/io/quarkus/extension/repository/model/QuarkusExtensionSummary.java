@@ -1,11 +1,9 @@
 package io.quarkus.extension.repository.model;
 
 /**
- * General Quarkus extension information common
- * to all the releases of the extension. Such as name, descr, etc
+ * Information about a Quarkus extension that is common
+ * to all the releases of the extension. Such as name, general description, etc.
  */
-public class QuarkusExtensionSummary {
+public interface QuarkusExtensionSummary {
 
-	private String name;
-	private String descr;
 }

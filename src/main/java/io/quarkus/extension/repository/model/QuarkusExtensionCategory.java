@@ -1,8 +1,8 @@
 package io.quarkus.extension.repository.model;
 
 /**
- * Category of extensions
+ * Extension category
  */
-public class QuarkusExtensionCategory {
+public interface QuarkusExtensionCategory {
 
 }
